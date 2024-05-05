@@ -1,0 +1,16 @@
+##!/bin/sh
+
+# This file runs when a DM logs you into a graphical session.
+
+xrandr --dpi 102		
+./.screenlayout/display.sh &
+setbg &			# set the background with the `setbg` script
+remaps &		# run the remaps script, switching caps/esc and more; check it for more info
+autostart="mpd xcompmgr dunst unclutter pipewire"
+for program in $autostart; do
+	pidof -s "$program" || "$program" &
+done >/dev/null 2>&1
+xset s off -dpms &
+
+# Ensure that xrdb has finished running before moving on to start the WM/DE.
+[ -n "$xrdbpid" ] && wait "$xrdbpid"!/bin/sh

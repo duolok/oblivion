@@ -1,0 +1,52 @@
+set sandbox none
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+set selection-clipboard clipboard
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+map g goto top
+
+set notification-error-bg       rgba(255,85,85,1)     
+set notification-error-fg       rgba(248,248,242,1)   
+set notification-warning-bg     rgba(255,184,108,1)   
+set notification-warning-fg     rgba(68,71,90,1)      
+set notification-bg             rgba(40,42,54,1)      
+set notification-fg             rgba(248,248,242,1)   
+
+set completion-bg               rgba(40,42,54,1)      
+set completion-fg               rgba(98,114,164,1)    
+set completion-group-bg         rgba(40,42,54,1)      
+set completion-group-fg         rgba(98,114,164,1)    
+set completion-highlight-bg     rgba(68,71,90,1)      
+set completion-highlight-fg     rgba(248,248,242,1)   
+
+set index-bg                    rgba(40,42,54,1)      
+set index-fg                    rgba(248,248,242,1)   
+set index-active-bg             rgba(68,71,90,1)      
+set index-active-fg             rgba(248,248,242,1)   
+
+set inputbar-bg                 rgba(40,42,54,1)      
+set inputbar-fg                 rgba(248,248,242,1)   
+set statusbar-bg                rgba(40,42,54,1)      
+set statusbar-fg                rgba(248,248,242,1)   
+
+set default-bg                  rgba(40,42,54,1)      
+set default-fg                  rgba(248,248,242,1)   
+
+set render-loading              true
+set render-loading-fg           rgba(40,42,54,1)      
+set render-loading-bg           rgba(248,248,242,1)   
+
+set recolor-lightcolor          rgba(40,42,54,1)      # Background
+set recolor-darkcolor           rgba(248,248,242,1)   # Foreground
+
+set adjust-open width
+set recolor true

@@ -13,3 +13,5 @@ Main programs used:
 
 It's a very minamalistic approach since everything is in .config and .local.
 There are bunch of scripts I find very useful.
+
+![rice][rice.png]
